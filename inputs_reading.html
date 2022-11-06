@@ -1,0 +1,48 @@
+<!-- 
+  [mst] doodling simple input manipulations
+-->
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="HTML doodle.">
+  <meta name="author" content="vnikolin">
+
+ 
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+
+<body>
+  <h1>Input doodles</h1>
+  <article>
+    <h2>Textbox</h2>
+    <label for="tbuser">Username</label>
+    <input type="text" id="tbuser" placeholder="Enter username" maxlength="11">
+    <input type="button" id="btn1" value="go!">
+
+    <p class="output" id="out1"></p>
+  </article>
+
+  <script>
+    const txt1 = document.getElementById('tbuser');
+    const btn1 = document.getElementById("btn1");
+    const output1 = document.getElementById("out1");
+
+    // simply present the text box value in a paragraph
+    function populate() {
+      output1.innerHTML = txt1.value;
+    }
+
+    btn1.addEventListener('click',populate)
+
+
+  </script>
+</body>
+
+</html>
