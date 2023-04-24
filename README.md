@@ -7,7 +7,7 @@ Currently polishing my full stack web apps development skills.
 ## Gains
 
 - [ ] REST fetching and handling
-- [ ] map/filter
+- [ ] map/filter/reduce
 - Basic syntax
 - Node and npm usage
 

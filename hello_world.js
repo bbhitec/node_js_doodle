@@ -17,7 +17,10 @@ function zipIndex(array) {
 }
 
 
-
-console.log("[mst] Hello Worldy!")
+var name = "John"
+console.log(`[mst] Hello ${name}!`) // [demo] composition string with ``
 
 console.log(zipIndex([1,2,3]))
+
+var foo = 10 + '20';	// string will take over
+console.log(foo)
