@@ -5,11 +5,14 @@ In this space I learn and practice my code.<br>
 Currently polishing my full stack web apps development skills.
 
 ## Gains
-
-- [ ] REST fetching and handling
-- [ ] map/filter/reduce
 - Basic syntax
 - Node and npm usage
+- REST fetching and handling (moved to react_doodle space)
+- Rest/Spread operators
+- Function Composition
+- map/reduce/forEach/filter
+- [ ] decorators
+
 
 ## Skills stack
 ![](https://shields.io/badge/-javascript-339?logo=javascript)
